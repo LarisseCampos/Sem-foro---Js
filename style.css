@@ -1,0 +1,49 @@
+*,
+* ::after,
+* ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    height: 100vh;
+    background-color: azure;
+}
+body{width: 100%;}
+
+.container{
+    margin: 0 auto;
+    margin-top: 8rem;
+}
+
+.imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem >img{ width: 15%; }
+
+#botoes{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+    
+}
+
+#botoes button{
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .1s;
+}
+
+#botoes button:hover{
+    border-radius: 15px;
+    box-shadow: 4px 5px 10px rgb(20, 4, 4);
+}
